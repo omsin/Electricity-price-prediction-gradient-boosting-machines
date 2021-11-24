@@ -1,6 +1,6 @@
 # Electricity price prediction gradient boosting machines
 
-1.File description
+1. File description
 	- data_preparation.py - Cleaning data and aggregate the data into 6 file:
 		- 1st file) All weather features from 177 weather stations in Finland andimmediately electricity price (780 feature) file [01_weather_FI.csv]
 		- 2nd file) All features from Nord Pool Market Data except immediately electricity price (14 feature) file [02_Extend.csv]
@@ -16,7 +16,7 @@
 	- Hour Window folder - archive of algorithm and result of various hour ahead plot (All file in this archive is ipynb format. You should use jupyter notebook or google colab to open.) 
 	- Implement space folder - archive of miscellaneous algorithm and result (All file in this archive is ipynb format. You should use jupyter notebook or google colab to open.) 
 
-2.File setting 
+2. File setting 
 	- data_preparation.py
 		- adjust the mean and std of gaussian noise that combine with weather feature - go to line 98
 		- adjust the per cent of missing data on the weather data and remove - go to line 68
