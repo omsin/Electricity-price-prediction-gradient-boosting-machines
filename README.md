@@ -1,13 +1,13 @@
-# Electricity-price-prediction-gradient-boosting-machines
+# Electricity price prediction gradient boosting machines
 
-I.File description
-	1.data_preparation.py - Cleaning data and aggregate the data into 6 file:
-		1st file) All weather features from 177 weather stations in Finland andimmediately electricity price (780 feature) file [01_weather_FI.csv]
-		2nd file) All features from Nord Pool Market Data except immediately electricity price (14 feature) file [02_Extend.csv]
-		3rd file) All extract feature (8 feature) [03_Time.csv]
-		4th file) Combine 1st, 2nd and 3rd file [04_All_Feature.csv]
-		5th file) Combine 1st and 2nd file [05_Weather_FI_Extend.csv]
-		6th file) Combine 1st and 3rd file [06_Weather_FI_Time.csv]
+1.File description
+	- data_preparation.py - Cleaning data and aggregate the data into 6 file:
+		- 1st file) All weather features from 177 weather stations in Finland andimmediately electricity price (780 feature) file [01_weather_FI.csv]
+		- 2nd file) All features from Nord Pool Market Data except immediately electricity price (14 feature) file [02_Extend.csv]
+		- 3rd file) All extract feature (8 feature) [03_Time.csv]
+		- 4th file) Combine 1st, 2nd and 3rd file [04_All_Feature.csv]
+		- 5th file) Combine 1st and 2nd file [05_Weather_FI_Extend.csv]
+		- 6th file) Combine 1st and 3rd file [06_Weather_FI_Time.csv]
 
 	2.gradient_boosting_regressor.py - main algorithm of gradient boosting machine 
 	3.random_forests.py - main algorithm of random forest
