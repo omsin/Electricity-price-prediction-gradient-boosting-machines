@@ -1,5 +1,24 @@
 # Electricity price prediction gradient boosting machines
 
+Nowadays, electric power is one of the important things for everyone. It is connected
+to almost everything in our lives and affects the economy, society and technology in
+every second the world turns. Therefore, to obtain electricity there is a price to pay
+from production and other expenses. Its price depends on the demand and supply
+of electricity which is linked to other factors, for example, the effect of wind speed
+on electricity generation capacity, the effect of temperature on human behaviour on
+electricity demand in households and human behaviour at weekends and weekdays.
+
+This code will predict and analysis the day-ahead wholesale electricity price of Finland by use
+machine learning that is a gradient boosting machine and use the random forest,
+linear regression, ridge regression, lasso and elastic net as benchmarks. The weather
+data of Finland, electricity price of Finland, electricity market data and considerably
+more had been used as features. The methodology is divided into 2 parts. The first
+part is data preparation, we clean the data and focus on feature selection. The second
+part is prediction, we tuning hyperparameter and implement gradient boosting
+machine and benchmark. Finally, The result of feature selection and prediction
+have been analysed for more insight to carry out what features and machines are
+appropriate to predict day-ahead wholesale electricity price.
+
 1. File description
 	- data_preparation.py - Cleaning data and aggregate the data into 6 file:
 		- 1st file) All weather features from 177 weather stations in Finland andimmediately electricity price (780 feature) file [01_weather_FI.csv]
